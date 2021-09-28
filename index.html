@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Kayıt ve Giriş</title>
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<link href="style.css" type="text/css" rel="stylesheet"/>
+	<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css">
+
+</head>
+<body>
+<div class="container" id="container">
+	<div class="form-container sign-up-container">
+		<form action="#">
+			<h1>Hesap Oluştur</h1>
+			<div class="social-container">
+				<a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
+				<a href="#" class="social"><i class="fab fa-google-plus-g"></i></a>
+				<a href="#" class="social"><i class="fab fa-linkedin-in"></i></a>
+			</div>
+			<span></span>
+			<input type="text" placeholder="İsim" />
+			<input type="email" placeholder="Email" />
+			<input type="password" placeholder="Şifre" />
+			<button>Kayıt</button>
+		</form>
+	</div>
+	<div class="form-container sign-in-container">
+		<form action="#">
+			<h1>Giriş Yap</h1>
+			<div class="social-container">
+				<a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
+				<a href="#" class="social"><i class="fab fa-google-plus-g"></i></a>
+				<a href="#" class="social"><i class="fab fa-linkedin-in"></i></a>
+			</div>
+			<span></span>
+			<input type="email" placeholder="Email" />
+			<input type="password" placeholder="Şifre" />
+			<a href="#">Şifremi Unuttum?</a>
+			<button>Giriş</button>
+		</form>
+	</div>
+	<div class="overlay-container">
+		<div class="overlay">
+			<div class="overlay-panel overlay-left">
+				<h1>Üyeliğiniz Var Mı?</h1>
+				<p>Hesabınız Var ise Oturum Açmak İçin Giriş Yap Butonuna Tıklayın.</p>
+				<button class="ghost" id="signIn">Giriş Yap</button>
+			</div>
+			<div class="overlay-panel overlay-right">
+				<h1>Üyeliğiniz Yok Mu?</h1>
+				<p>Kaydol Butonuna Basın Kayıt Olun Sizide Aramızda Görmek İsteriz.</p>
+				<button class="ghost" id="signUp">Kayıt Ol</button>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+<script type="text/javascript" src="script.js"></script>
+
+</body>
+</html>
